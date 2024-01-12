@@ -11,7 +11,7 @@
 body {
     background: #ffffff;
     color: black;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* ----- BUTTONS -----*/

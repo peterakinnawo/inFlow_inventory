@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Intro = () => {
     return(
         <section id="intro">
+            <img src={bg} alt="Main Pic" className="show-img" />
 
             <div className="introContent">
                 <span className="introText">Welcome to <span className="introName">Inventory and Stock Management</span> <br/> Information System!</span >
@@ -18,7 +19,7 @@ const Intro = () => {
                 </div>
                 
             </div>
-
+            
             <img src={bg} alt="Main Pic" className="bg" />
  
         </section>

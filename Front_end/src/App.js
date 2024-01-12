@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
+import Intro from "./pages/Intro/intro"
 import ForgotPassword from "./pages/ForgotPassword/Forgotpassword";
 import PasswordReset from "./pages/ForgotPassword/PasswordReset";
 import PhoneOtp from "./pages/OTP/PhoneOtp";
@@ -18,7 +19,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<ForgotPassword />} />
+        <Route path="/" element={<Intro />} />
+        <Route path="/forgotpassword" element={<ForgotPassword />} />
         <Route path="/passwordreset" element={<PasswordReset />} />
         <Route path="/phoneotp" element={<PhoneOtp />} />
         <Route path="/product" element={<Product />} />
